@@ -9,11 +9,11 @@
 
 // Most Effective Method
 function arrayPairSum(arr) {
-    arr.sort((a, b) => a - b); // Sort the array in ascending order
+    arr.sort((a, b) => a - b); 
     let sum = 0;
     for (let i = 0; i < arr.length; i += 2) {
-        sum += arr[i]; // Add the smaller number of each pair (the first one in the sorted order)
+        sum += arr[i]; 
     }
     return sum;
 }
-console.log(arrayPairSum([1, 4, 3, 2])); // Output: 4
+console.log(arrayPairSum([1, 4, 3, 2]));
