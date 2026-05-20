@@ -1,8 +1,10 @@
 // Day 4
 // Problem Statement = Take an array and split it into smaller arrays of fixed size.
+
 // Example
 // Input: arr = [8, 5, 3, 2, 6], size = 6
 // Output: [[8, 5, 3, 2, 6]]
+
 // Explanation: The array is split into one subarray of size 6, which contains all the elements of the original array.
 
 // Core Problem what we have to do = We need to split the given array into smaller arrays of a specified size.
@@ -24,4 +26,4 @@ function chunk(arr, size) {
     return result;
 }
 
-console.log(chunk([8, 5, 3, 2, 6], 6)); 
+console.log(chunk([8, 5, 3, 2, 6], 6));
