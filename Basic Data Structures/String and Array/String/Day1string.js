@@ -10,7 +10,7 @@
 // Most Efficient Solution
 function shiftString(s, steps) {
     const n = s.length;
-    steps = steps % n; 
+    steps = steps % n;
     return s.slice(-steps) + s.slice(0, n - steps);
 }
 
@@ -26,5 +26,5 @@ function restoreString(s, indices) {
 }
 
 console.log(
-    restoreString("codeleet", [4,5,6,7,0,2,1,3])
+    restoreString("codeleet", [4, 5, 6, 7, 0, 2, 1, 3])
 );
