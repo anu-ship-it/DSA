@@ -4,8 +4,8 @@
 // Example
 // Input: s = "III"
 // Output: 3
-// Explanation: 
-// Core Problem what we have to do = 
+// Explanation: The string "III" is converted to the integer 3 because each 'I' represents 1, and there are three 'I's in the string. 
+// Core Problem what we have to do = We need to convert a Roman numeral string into an integer by traversing the string and making decisions based on the values of the characters and their positions in the string.
 
 // For understanding the logic of shifting a string without using built-in functions
 function romanToInt(s) {

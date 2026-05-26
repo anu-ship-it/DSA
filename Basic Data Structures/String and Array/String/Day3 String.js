@@ -4,8 +4,8 @@
 // Example
 // Input: s = "IceCreAm"
 // Output: "AceCreIm"
-// Explanation:
-// Core Problem what we have to do = 
+// Explanation: The vowels in the string "IceCreAm" are 'I', 'e', 'e', and 'A'. When we reverse the order of these vowels, we get 'A', 'e', 'e', and 'I'. Therefore, the resulting string after reversing the vowels is "AceCreIm".
+// Core Problem what we have to do = We need to reverse the order of the vowels in the given string while keeping the positions of the consonants unchanged.
 
 // For understanding the logic of reversing the vowels
 function reverseVowels(s) {
