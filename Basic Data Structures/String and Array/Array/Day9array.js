@@ -25,5 +25,5 @@ class ArrayWrapper {
     }
 }
 const wrapper = new ArrayWrapper([1, 2, 3]);
-console.log(wrapper.value());
+console.log(wrapper.valueOf());
 console.log(wrapper.toString());
