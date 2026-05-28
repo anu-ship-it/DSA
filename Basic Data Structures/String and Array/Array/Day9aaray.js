@@ -10,17 +10,20 @@
 
 // Most Effective Method
 class ArrayWrapper {
-    constructor(arr) {
-        this.arr = arr;
+    constructor(nums) {
+        this.nums = nums;
     }
-    value() {
-        return this.arr;
+    valueOf() {
+        let sum = 0;
+        for (let num of this.nums) {
+            sum += num;
+        }
+        return sum;
     }
     toString() {
-        return `[${this.arr.join(', ')}]`;
+        return `[${this.nums.join(',')}]`;
     }
 }
-
 const wrapper = new ArrayWrapper([1, 2, 3]);
 console.log(wrapper.value());
 console.log(wrapper.toString());
