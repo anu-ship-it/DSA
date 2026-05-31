@@ -23,3 +23,5 @@ function constructTransformedArray(nums) {
 }
 const nums = [3, -2, 1, 1];
 console.log(constructTransformedArray(nums));
+const nums2 = [0, 1, 2, 3];
+console.log(constructTransformedArray(nums2));
