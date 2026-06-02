@@ -7,9 +7,7 @@
 // Input: chars = ["a","a","b","b","c","c","c"]
 // Output: 6
 // Explanation: The groups are "aa", "bb", and "ccc". This compresses to "a2b2c3".
-
 // Core Problem what we have to do = We have to compress the given array of characters by counting the consecutive repeating characters and appending the character followed by the count of the characters in the compressed string.
-
 // For understanding the logic of compressing the given array of characters by counting the consecutive repeating characters and appending the character followed by the count of the characters in the compressed string without using build -in function
 
 // Most Efficient Solution
