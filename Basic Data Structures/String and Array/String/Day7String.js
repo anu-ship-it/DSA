@@ -38,3 +38,4 @@ function compress(chars) {
 }
 
 console.log(compress(["a","a","b","b","c","c","c"]));
+console.log(compress(["a"]));
